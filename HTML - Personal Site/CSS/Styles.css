@@ -1,0 +1,62 @@
+body
+ {
+
+  background-color: azure;
+}
+div
+{
+  width: 100px;
+height: 100px;
+background: red;
+position: relative;
+animation: mymove 10s infinite;
+animation-direction: alternate;
+}
+@keyframes mymove {
+  0%   {background: red; left: 0; top: 0;}
+  25%  {background: #3F0713; left: 200px; top: 0;}
+  50%  {background: yellow; left: 200px; top: 200px;}
+  75%  {background: green; left: 0; top: 200px;}
+  100% {background: red; left: 0; top: 0;}
+}
+hr {
+background-color: azure;
+border-style: dotted none none ;
+border-width: thick;
+width: 20%;
+
+}
+h1 {
+  font-style: oblique;
+  color: #00A19D
+}
+h3 {
+  font-size: 25px;
+  font-style: oblique;
+  color: #00A19D
+}
+p {
+  font-size: 20px;
+  font-style: oblique;
+}
+table
+{
+  font-style: oblique;
+  font-size: 20px;
+}
+ul {
+  font-style: oblique;
+  font-size: 20px;
+}
+li {
+  font-style: oblique;
+  font-size: 20px;
+}
+label {
+  font-style: oblique;
+  font-size: 20px;
+}
+input {
+  font-style: oblique;
+  font-size: 20px;
+}
