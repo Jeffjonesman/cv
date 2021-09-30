@@ -61,22 +61,7 @@ body
       font-style: oblique;
       color: white;
 }
-.king
-{
-  width: 100px;
-height: 100px;
-background: red;
-position: relative;
-animation: mymove 10s infinite;
-animation-direction: alternate;
-}
-@keyframes mymove {
-  0%   {background: red; left: 0; top: 0;}
-  25%  {background: #3F0713; left: 200px; top: 0;}
-  50%  {background: yellow; left: 200px; top: 200px;}
-  75%  {background: green; left: 0; top: 200px;}
-  100% {background: red; left: 0; top: 0;}
-}
+
 hr {
 background-color: azure;
 border-style: dotted none none ;
@@ -96,6 +81,10 @@ h3 {
 p {
   font-size: 20px;
   font-style: oblique;
+}
+.light 
+{
+  border-radius: 100%;
 }
 table
 {
